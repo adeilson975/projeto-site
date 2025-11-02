@@ -45,7 +45,7 @@ body {
 }
 
 .titulo-pagina {
-  font-size: clamp (1.75, 1em + 3vw, 2.5em);
+  font-size: clamp(1.5rem, 5vw, 3rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -60,7 +60,7 @@ main {
 }
 
 .h1-artigo {
-  font-size: clamp (1.75, 1em + 3vw, 2.5em);
+  font-size: clamp(1.5rem, 5vw, 3rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -76,11 +76,20 @@ main {
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+  
+}
+.img-artigo-album {
+  max-width: 100%;
   height: auto;
-  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
 }
 .h2-artigo {
-  font-size: clamp (1.75, 1em + 3vw, 2.5em);
+  font-size: clamp(1.5rem, 5vw, 3rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -90,7 +99,7 @@ main {
 
 }
 .paragrafo-artigo {
-  font-size: clamp (1em, 1em + 1vw, 1.25em);
+  font-size: clamp(1rem, 2vw, 1.2rem); 
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -100,7 +109,7 @@ main {
   text-align: justify;
 }
 .paragrafo-artigo-fonte-materia {
-  font-size: clamp (1em, 1em + 1vw, 1.25em);
+  font-size: clamp(1rem, 2vw, 1.2rem); 
   display: flex;
   justify-content:flex-start;
   margin-left: 20%;
@@ -116,7 +125,7 @@ main {
   justify-content: center;
 }
 .voltar-inicio a {
-  font-size: clamp (1.75, 1em + 3vw, 2.5em);
+  font-size: clamp(1rem, 2vw, 1.2rem); 
   color: #000;
 }
 .voltar-inicio a:hover {
@@ -156,7 +165,7 @@ footer {
   display: flex;
   justify-content: center;
   color:#DAA520;
-  font-size: clamp (1.75, 1em + 3vw, 2.5em);
+  font-size: clamp(1rem, 2vw, 1.2rem); 
 }
 
 /* Media query para telas menores que 768px (tablets e celulares) */
@@ -167,12 +176,14 @@ footer {
   }
 }
 
+
 /* Media query para telas menores que 768px (tablets e celulares) */
 @media screen and (max-width: 768px) {
   .icone-redes {
     display: none; /*Não vai mostrar os icones de redes sociais para tela menoes*/
   }
 }
+
 @media screen and (max-width: 768px) {
   .icone-redes-rodape {
     flex-direction: column; /* Altera a direção para coluna */
