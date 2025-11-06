@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'fugazi'; /* Escolha um nome para a fonte */
+  src: url('font/CAMPUS\ PERSONAL\ USE.ttf'); /* Caminho para o arquivo da fonte */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -61,6 +66,16 @@ main {
 .artigo {
   margin-top: 50px;
 
+}
+.h1-artigo-fugazi {
+  font-family: fugazi;
+  font-size: clamp(5rem, 5vw, 3rem);
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .h1-artigo {
@@ -126,8 +141,9 @@ main {
   
 }
 .legenda {
-  margin-left: 20%;
-  margin-right: 20%;
+  background-color:	#DCDCDC ;
+  margin-left: 30%;
+  margin-right:30%;
   font-weight: 800;
 }
 
