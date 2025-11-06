@@ -23,8 +23,7 @@ body {
 }
 
 .lista-menu li a {
-  margin: 20px;
-  padding: 10px 5px 10px 5px;
+  padding:10px;
   border-radius: 5px;
   text-decoration: none;
   color: #DAA520;
@@ -175,8 +174,8 @@ footer {
   display: flex;
 }
 .icone-redes-rodape i {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top:20px;
+  margin-bottom:20px;
   background-color:#DAA520;
   padding: 15px 30px 15px 30px;
 }
