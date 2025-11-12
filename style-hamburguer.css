@@ -3,7 +3,9 @@
     box-sizing: border-box;
     padding: 0;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 
 #menuToggle {
   display:block;

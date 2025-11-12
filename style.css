@@ -10,6 +10,9 @@
   font-family:'nome-site';
   src: url('font/futurist/FUTRFW.TTF');
 }
+html, body {
+  overflow-x: hidden;
+}
 
 
 * {
