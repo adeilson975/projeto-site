@@ -1,9 +1,13 @@
 @font-face {
-  font-family: 'fugazi'; /* Escolha um nome para a fonte */
+  font-family:'fugazi'; /* Escolha um nome para a fonte */
   src: url('font/campus/CAMPUS\ PERSONAL\ USE.ttf'); /* Caminho para o arquivo da fonte */
 }
 @font-face {
-  font-family: 'nome-site';
+  font-family:'pixies';
+  src: url('font/birds_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf');
+}
+@font-face {
+  font-family:'nome-site';
   src: url('font/futurist/FUTRFW.TTF');
 }
 
@@ -80,6 +84,16 @@ main {
 .artigo {
   margin-top: 50px;
 
+}
+.h2-artigo-pixies{
+  font-family:pixies;
+  font-size: clamp(5rem, 5vw, 3rem);
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .h2-artigo-fugazi{
