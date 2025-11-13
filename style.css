@@ -87,7 +87,7 @@ main {
 
 .h2-artigo-pixies{
   font-family:pixies;
-  font-size: clamp(1rem, 5vw,3rem);
+  font-size: clamp(3rem, 5vw,2rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
@@ -98,7 +98,7 @@ main {
 
 .h2-artigo-fugazi{
   font-family: fugazi;
-  font-size: clamp(1rem, 5vw,3rem);
+  font-size: clamp(3rem, 5vw,2rem);
   display: flex;
   justify-content: center;
   margin-left: 20%;
